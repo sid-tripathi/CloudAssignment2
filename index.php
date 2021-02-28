@@ -23,7 +23,7 @@
 		// https://github.com/sendgrid/sendgrid-php/releases
 
 		$email = new \SendGrid\Mail\Mail(); 
-		$email->setFrom("flight.schedule.00@gmail.com", "Example User");
+		$email->setFrom("flight.schedule.00@gmail.com", "Flight Schedule");
 		$email->setSubject("Sending with SendGrid is Fun");
 		$email->addTo("test@example.com", "Example User");
 		$email->addContent("text/plain", "and easy to do anywhere, even with PHP");
