@@ -26,9 +26,7 @@
 		$email->setFrom("flight.schedule.00@gmail.com", "Flight Schedule");
 		$email->setSubject("Sending with SendGrid is Fun");
 		$email->addTo("warlord0011@gmail.com", "Sid");
-		$email->addContent("text/html", "and easy to do anywhere, even with PHP");
-		$email->addContent("text/html", "<strong>and easy to do anywhere, even with PHP</strong>");
-		$email->addContent("text/html", "this is a test");
+		$email->addContent("text/plain", "and easy to do anywhere \n even with PHP");
 		$sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
 		try {
 			$response = $sendgrid->send($email);
