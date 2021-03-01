@@ -42,7 +42,7 @@
 				</div>
 				<br>
 				<div>
-					<input type="submit" class="btn btn-primary" value="send!">
+					<input type="submit" class="btn btn-primary" value="Send!">
 				</div>
 			</form>
 		</div>
