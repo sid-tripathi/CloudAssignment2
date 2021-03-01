@@ -24,7 +24,7 @@
 			<form method="GET" action="weather.php">
 				<div>
 					<label>Check The Weather!</label>
-					<input type="text" class="form-control" name="inputLocation" placeholder="Enter a Location!">
+					<input type="text" class="form-control" name="inputLocation" placeholder="Enter a location!">
 					<span class="help-block"></span>
 				</div>
 				<br>
